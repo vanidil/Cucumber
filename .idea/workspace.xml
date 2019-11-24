@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962bb4d3-9629-4db8-b8a5-d1524d6c517c" name="Default Changelist" comment="" />
+    <list default="true" id="962bb4d3-9629-4db8-b8a5-d1524d6c517c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Apifeature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Employee.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/fizzbuzzplay.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/application/CucumberTestAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cu/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cu/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/BDDStyleMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/BDDStyleMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/EmpSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/EmpSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/FizzBuzzSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/FizzBuzzSteps.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -27,7 +40,8 @@
   </component>
   <component name="ProjectId" id="1Tu6E6OiNPNzfioafoMU4VnoOiy" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Git/Git.exe" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,25 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Verify DELETE operation">
-    <configuration name="Feature: Employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Employee.feature" />
-      <option name="GLUE" value="Steps&#9;" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Cucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Employee" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CucumberTestAll">
     <configuration name="Scenario: Verify DELETE operation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Employee.feature" />
@@ -140,20 +136,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CucumberTestAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="application" />
+      <option name="MAIN_CLASS_NAME" value="application.CucumberTestAll" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: Employee" />
       <item itemvalue="Cucumber java.Scenario: Verify first name of the employee" />
       <item itemvalue="Cucumber java.Scenario: Verify collections of the employee" />
       <item itemvalue="Cucumber java.Scenario: verify POST operations" />
       <item itemvalue="Cucumber java.Scenario: Verify DELETE operation" />
+      <item itemvalue="JUnit.CucumberTestAll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CucumberTestAll" />
         <item itemvalue="Cucumber java.Scenario: Verify DELETE operation" />
         <item itemvalue="Cucumber java.Scenario: verify POST operations" />
         <item itemvalue="Cucumber java.Scenario: Verify first name of the employee" />
         <item itemvalue="Cucumber java.Scenario: Verify collections of the employee" />
-        <item itemvalue="Cucumber java.Feature: Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +179,47 @@
       <option name="presentableId" value="Default" />
       <updated>1574297518784</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Change">
+      <created>1574633300413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574633300413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Error Fix (diamond)">
+      <created>1574636713638</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574636713638</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Change" />
+    <MESSAGE value="Error Fix (diamond)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error Fix (diamond)" />
   </component>
 </project>
