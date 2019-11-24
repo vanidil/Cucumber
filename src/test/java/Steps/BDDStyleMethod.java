@@ -17,7 +17,7 @@ public class BDDStyleMethod {
 
     }
     public static void performPOSTwithbodyparameter(){
-        HashMap<String,String> postContent = new HashMap<>();
+        HashMap<String,String> postContent = new HashMap<String, String>();
         postContent.put("id","5");
         postContent.put("firstName","nikhil");
         postContent.put("lastName","sen");
